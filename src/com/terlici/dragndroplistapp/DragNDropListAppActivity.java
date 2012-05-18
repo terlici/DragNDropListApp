@@ -18,7 +18,7 @@ public class DragNDropListAppActivity extends Activity {
         setContentView(R.layout.testdragndroplist);
         
         ArrayList<Map<String, Object>> items = new ArrayList<Map<String, Object>>();
-		for(int i = 0; i < 10; ++i) {
+		for(int i = 0; i < 30; ++i) {
 			HashMap<String, Object> item = new HashMap<String, Object>();
 			item.put("name", "item" + i);
 			item.put("_id", i);
