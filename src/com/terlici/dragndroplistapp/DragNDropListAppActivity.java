@@ -43,6 +43,7 @@ public class DragNDropListAppActivity extends Activity {
 		}
 		
 		DragNDropListView list = (DragNDropListView)findViewById(R.id.list1);
+		list.addFooterView(getLayoutInflater().inflate(R.layout.footer, null));
 		list.setDragNDropAdapter(new DragNDropSimpleAdapter(this,
 				 items,
 				 R.layout.testitem,
